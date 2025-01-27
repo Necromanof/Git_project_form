@@ -10,20 +10,20 @@
     <h1>Form Git</h1>
 
     <form   method="post">
-        <label for="nom">Nom</label>
-        <input type="text" name="nom" id="nom" required>
+        <label for="nom">Nom :</label>
+        <input type="text" name="nom" id="nom" title="Merci de renseinger votre nom" required>
 
-        <label for="prenom">Prénom</label>
-        <input type="text" name="prenom" id="prenom" required>
+        <label for="prenom">Prénom :</label>
+        <input type="text" name="prenom" id="prenom" title="Merci de renseigner votre prénom" required>
 
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" title="Merci de renseigner une adresse valide" required>
+        <label for="email">Email :</label>
+        <input type="email" name="email" id="email" title="Merci de renseigner une adresse mail valide" required>
 
-        <label for="telephone">Téléphone</label>        
-        <input type="tel" name="telephone" id="telephone" required>
+        <label for="telephone">Téléphone :</label>        
+        <input type="tel" name="telephone" id="telephone" title="Merci de renseigner un numéro de téléphone valide" required>
         
-        <label for="message">Message</label>
-        <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+        <label for="message">Message :</label>
+        <textarea name="message" id="message" title="Taper votre message ici" required></textarea>
     
         <input type="submit" value="Envoyer">
     </form>
