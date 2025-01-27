@@ -26,8 +26,12 @@ label {
     color: #333;
 }
 
+
 input, textarea {
     width: 550px;
+input, textarea {
+    width: 100%;
+
     padding: 1px;
     margin: 10px 0;
     border: 1px solid #ccc;
